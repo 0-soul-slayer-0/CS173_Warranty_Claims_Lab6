@@ -1,9 +1,3 @@
-"""Lab 6 branch and boundary tests. SRN: PES2UG24CS173.
-
-Exercise both outcomes of each decision, including registration short-circuits,
-warranty/surcharge boundaries, recall limits, cooldowns and all SLA categories.
-"""
-
 import pytest
 
 from warranty_claims import claim_allowed, out_of_warranty_charge, sla_status
