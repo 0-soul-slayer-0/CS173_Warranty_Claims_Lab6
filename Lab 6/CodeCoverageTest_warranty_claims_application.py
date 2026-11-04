@@ -1,9 +1,3 @@
-"""Lab 6 line coverage tests. SRN: PES2UG24CS173.
-
-Run explicitly with pytest, or use the supplied pytest.ini for discovery.
-Expected results are fixed examples of the original application's behaviour.
-"""
-
 import pytest
 
 from warranty_claims import claim_allowed, out_of_warranty_charge, sla_status
